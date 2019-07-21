@@ -7,7 +7,7 @@ class Chatty_student < Student
   end 
   
   def raise_hand 
-    super 
+    super .each {|n| puts n}
   end 
   
 end 
